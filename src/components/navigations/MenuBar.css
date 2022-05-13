@@ -1,0 +1,30 @@
+.Menu-Container{
+    border: 2em;
+    height: 5em;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.nav_bar{
+    height: 90%;
+    width: 90%;
+}
+
+.Menu-Container .nav_bar .left{
+    float: left;
+    margin-left:1em;
+}
+
+.Menu-Container .nav_bar .right{
+    float: right;
+}
+
+.Menu-Container .nav_bar .right ul em{
+    margin-left: 2em;
+}
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
